@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F24A0DF21F3AFC1B000B421F /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24A0DF11F3AFC1B000B421F /* BorderButton.swift */; };
 		F28D9EFA1F38EC420039B9C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D9EF91F38EC420039B9C9 /* AppDelegate.swift */; };
 		F28D9EFC1F38EC420039B9C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D9EFB1F38EC420039B9C9 /* ViewController.swift */; };
 		F28D9EFF1F38EC420039B9C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28D9EFD1F38EC420039B9C9 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F24A0DF11F3AFC1B000B421F /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		F28D9EF61F38EC420039B9C9 /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28D9EF91F38EC420039B9C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F28D9EFB1F38EC420039B9C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F24A0DF01F3AFBCB000B421F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F24A0DF11F3AFC1B000B421F /* BorderButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F28D9EED1F38EC420039B9C9 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		F28D9EF81F38EC420039B9C9 /* app-swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				F24A0DF01F3AFBCB000B421F /* Views */,
 				F28D9EF91F38EC420039B9C9 /* AppDelegate.swift */,
 				F28D9EFB1F38EC420039B9C9 /* ViewController.swift */,
 				F28D9EFD1F38EC420039B9C9 /* Main.storyboard */,
@@ -137,6 +148,7 @@
 			files = (
 				F28D9EFC1F38EC420039B9C9 /* ViewController.swift in Sources */,
 				F28D9EFA1F38EC420039B9C9 /* AppDelegate.swift in Sources */,
+				F24A0DF21F3AFC1B000B421F /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
